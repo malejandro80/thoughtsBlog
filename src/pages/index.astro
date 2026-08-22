@@ -1,21 +1,19 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PostCard from '../components/PostCard.astro';
+import ProfileHero from '../components/ProfileHero.astro';
 import { SITE } from '../consts';
-import { getPublishedPosts } from '../utils/posts';
+import { getFeaturedPosts } from '../utils/posts';
 
-const posts = await getPublishedPosts();
-const recent = posts.slice(0, 5);
+const posts = await getFeaturedPosts(3);
 ---
 
-<BaseLayout title={SITE.title} description={SITE.description}>
-  <section class="hero">
-    <h1>{SITE.title}</h1>
-    <p>{SITE.description}</p>
-  </section>
+<BaseLayout title={`${SITE.author} · ${SITE.title}`} description={SITE.description}>
+  <ProfileHero />
 
-  <section aria-label="Últimos posts">
-    {recent.map((post) => <PostCard post={post} />)}
+  <section aria-label="Posts destacados">
+    <h2 class="featured-heading">Posts destacados</h2>
+    {posts.map((post) => <PostCard post={post} />)}
   </section>
 
   <p><a href="/blog/">Ver todos los posts →</a></p>
