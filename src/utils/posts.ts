@@ -14,3 +14,11 @@ export async function getPublishedPosts(): Promise<CollectionEntry<'blog'>[]> {
 export function getAllTags(posts: CollectionEntry<'blog'>[]): string[] {
   return [...new Set(posts.flatMap((post) => post.data.tags))].sort();
 }
+
+/** Devuelve hasta `limit` posts marcados como destacados, por fecha descendente.
+ * Si no hay ninguno destacado, devuelve los últimos `limit` posts publicados. */
+export async function getFeaturedPosts(limit = 3): Promise<CollectionEntry<'blog'>[]> {
+  const posts = await getPublishedPosts();
+  const featured = posts.filter((post) => post.data.featured);
+  return (featured.length > 0 ? featured : posts).slice(0, limit);
+}
