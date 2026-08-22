@@ -1,9 +1,30 @@
 :root {
-  --text: #1c1c1c;
-  --bg: #ffffff;
-  --muted: #525866;
-  --accent: #1d4ed8;
-  --border: #e5e7eb;
+  /* Tipografía */
+  --font-heading: 'Outfit', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+
+  /* Color */
+  --bg: #f8fafc;
+  --surface: #ffffff;
+  --text: #0f172a;
+  --muted: #64748b;
+  --accent-primary: #046bd2;
+  --accent-secondary: #26b7cd;
+  --accent-gradient: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+  --accent: var(--accent-primary); /* puente temporal: se elimina en Tasks 4-5 */
+  --border: #e2e8f0;
+
+  /* Radios */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-pill: 999px;
+
+  /* Sombras y movimiento */
+  --shadow-card: 0 20px 40px -15px rgba(15, 23, 42, 0.08);
+  --shadow-hover: 0 30px 60px -15px rgba(4, 107, 210, 0.12);
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+
   --max-width: 44rem;
 }
 
@@ -11,10 +32,23 @@
 
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  font-family: var(--font-body);
   line-height: 1.7;
   color: var(--text);
   background: var(--bg);
+}
+
+/* Rejilla sutil del portafolio (estática, sin animación) */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(4, 107, 210, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(4, 107, 210, 0.03) 1px, transparent 1px);
+  background-size: 30px 30px;
 }
 
 .container {
@@ -23,9 +57,17 @@ body {
   padding-inline: 1rem;
 }
 
-a { color: var(--accent); }
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+h1 { font-weight: 800; }
+
+a { color: var(--accent-primary); }
 a:hover { text-decoration: none; }
-a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+a:focus-visible { outline: 2px solid var(--accent-primary); outline-offset: 2px; }
 
 .site-header { border-bottom: 1px solid var(--border); }
 .header-inner {
