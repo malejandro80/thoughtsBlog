@@ -14,6 +14,7 @@ pubDate: 2026-08-22                # obligatorio
 updatedDate: 2026-08-23            # opcional
 tags: ["astro", "seo"]             # opcional (minúsculas, sin espacios)
 draft: true                        # opcional: no se publica en producción
+featured: false                    # opcional: aparece en la portada
 ---
 
 Contenido en Markdown...
