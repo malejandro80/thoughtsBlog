@@ -1,0 +1,13 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostCard from '../../components/PostCard.astro';
+import { SITE } from '../../consts';
+import { getPublishedPosts } from '../../utils/posts';
+
+const posts = await getPublishedPosts();
+---
+
+<BaseLayout title={`Todos los posts · ${SITE.title}`} description="Archivo completo de todos los posts del blog.">
+  <h1>Todos los posts</h1>
+  {posts.map((post) => <PostCard post={post} />)}
+</BaseLayout>
