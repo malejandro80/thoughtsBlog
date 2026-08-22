@@ -14,7 +14,7 @@ Blog personal escrito en Markdown, optimizado para SEO y posicionamiento orgáni
 | Framework | Astro (SSG, sin JS en cliente) | HTML estático puro → Core Web Vitals óptimos |
 | Contenido | Content Collections (`src/content/blog/*.md`) | Validación de frontmatter en build |
 | Hosting | GitHub Pages (GitHub Actions) | Gratis, deploy automático desde Git |
-| Dominio | Propio vía archivo `CNAME` | Mejor branding y SEO a largo plazo |
+| Dominio | `thoughts.miguelintech.com` vía archivo `CNAME` | Mejor branding y SEO a largo plazo |
 
 Alternativas descartadas: AstroPaper (tema con código ajeno y features no solicitadas), Next.js (innecesario para blog estático), Eleventy (Astro preferido por el usuario).
 
@@ -55,7 +55,7 @@ public/
 Cada página genera:
 
 1. `<title>` único y `<meta name="description">` derivados del frontmatter.
-2. `<link rel="canonical">` con la URL absoluta (`site` configurado en `astro.config.mjs`).
+2. `<link rel="canonical">` con la URL absoluta (`site: "https://thoughts.miguelintech.com"` en `astro.config.mjs`).
 3. Open Graph (`og:title`, `og:description`, `og:image`, `og:type`, `og:url`) y Twitter Cards.
 4. JSON-LD `BlogPosting` en cada post (autor, fecha, imagen).
 5. HTML semántico: `<article>`, un único `<h1>` por página, `<time datetime>` en fechas.
