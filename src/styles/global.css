@@ -44,8 +44,33 @@ nav { display: flex; gap: 1rem; }
 nav a { color: var(--muted); text-decoration: none; }
 nav a:hover { color: var(--text); }
 
-.hero { padding-block: 3rem 2rem; }
-.hero h1 { margin-bottom: 0.25rem; }
+.profile-hero {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding-block: 3rem 2rem;
+}
+
+.profile-avatar svg {
+  display: block;
+  border-radius: 50%;
+}
+
+.profile-info h1 {
+  margin-bottom: 0.25rem;
+}
+
+.featured-heading {
+  font-size: 1.25rem;
+  margin-block: 0 0.5rem;
+}
+
+@media (max-width: 480px) {
+  .profile-hero {
+    flex-direction: column;
+    text-align: center;
+  }
+}
 
 .post-card { padding-block: 1.5rem; border-bottom: 1px solid var(--border); }
 .post-card time { color: var(--muted); font-size: 0.875rem; }
