@@ -21,6 +21,8 @@ image: "/covers/mi-post.png"        # opcional: portada de la tarjeta
 Contenido en Markdown...
 ```
 
+Las imágenes de portada van en `public/covers/` (por ejemplo `public/covers/mi-post.png`) y se referencian con ruta absoluta.
+
 El frontmatter se valida al compilar: si falta título o descripción, el build falla.
 
 ## Comandos
