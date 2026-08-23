@@ -232,19 +232,13 @@ nav a:hover { color: var(--accent-primary); }
   margin: 0.75rem 0 0;
   flex-wrap: wrap;
 }
-.tags a {
+.tags span {
   background: rgba(4, 107, 210, 0.08);
   color: var(--accent-primary);
   padding: 4px 12px;
   border-radius: var(--radius-pill);
   font-size: 0.75rem;
   font-weight: 600;
-  text-decoration: none;
-  transition: background 0.3s var(--ease), color 0.3s var(--ease);
-}
-.tags a:hover {
-  background: var(--accent-primary);
-  color: #fff;
 }
 
 .post-header { padding-block: 3rem 1rem; }
