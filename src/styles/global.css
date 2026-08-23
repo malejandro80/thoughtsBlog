@@ -279,3 +279,17 @@ nav a:hover { color: var(--accent-primary); }
   color: var(--muted);
   font-size: 0.875rem;
 }
+
+.back-link {
+  display: inline-block;
+  margin-block: 1.25rem 0;
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--muted);
+}
+
+.back-link:hover { color: var(--accent-primary); }
