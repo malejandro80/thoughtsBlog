@@ -338,8 +338,8 @@ Expected: `1`
 Run: `grep -o '<a class="back-link" href="/blog/">← Todos los posts</a>' dist/blog/mi-primer-post/index.html | wc -l`
 Expected: `1`
 
-Run: `grep -c 'back-link' dist/index.html`
-Expected: `0` (la portada no lleva)
+Run: `grep -o '<a class="back-link"' dist/index.html | wc -l`
+Expected: `0` (la portada no lleva; el CSS inline sí contiene la regla, pero no el elemento)
 
 - [ ] **Step 6: Commit**
 
