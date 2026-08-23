@@ -13,7 +13,9 @@ const posts = await getFeaturedPosts(3);
 
   <section aria-label="Posts destacados">
     <h2 class="featured-heading">Posts destacados</h2>
-    {posts.map((post) => <PostCard post={post} />)}
+    <div class="post-list">
+      {posts.map((post) => <PostCard post={post} />)}
+    </div>
   </section>
 
   <p><a href="/blog/">Ver todos los posts →</a></p>

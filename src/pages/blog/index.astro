@@ -9,5 +9,7 @@ const posts = await getPublishedPosts();
 
 <BaseLayout title={`Todos los posts · ${SITE.title}`} description="Archivo completo de todos los posts del blog.">
   <h1>Todos los posts</h1>
-  {posts.map((post) => <PostCard post={post} />)}
+  <div class="post-list">
+    {posts.map((post) => <PostCard post={post} />)}
+  </div>
 </BaseLayout>

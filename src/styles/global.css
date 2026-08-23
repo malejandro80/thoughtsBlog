@@ -163,7 +163,6 @@ nav a:hover { color: var(--accent-primary); }
   padding: 1.5rem;
   transition: transform 0.4s var(--ease), box-shadow 0.4s var(--ease);
 }
-.post-card + .post-card { margin-top: 1rem; }
 .post-card:hover {
   transform: translateY(-4px);
   box-shadow: var(--shadow-hover);
@@ -175,6 +174,36 @@ nav a:hover { color: var(--accent-primary); }
   .post-card:hover {
     transform: none;
   }
+}
+
+.post-cover {
+  margin: -1.5rem -1.5rem 1rem;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.cover-fallback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--accent-gradient);
+}
+
+.cover-fallback span {
+  font-family: var(--font-heading);
+  font-weight: 800;
+  font-size: 4rem;
+  color: #fff;
+}
+
+.post-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 .post-card time { color: var(--muted); font-size: 0.875rem; }
 .post-card h2 { margin: 0.25rem 0; font-size: 1.25rem; }

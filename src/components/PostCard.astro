@@ -1,6 +1,7 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import { formattedDate } from '../utils/formattedDate';
+import PostCover from './PostCover.astro';
 
 interface Props {
   post: CollectionEntry<'blog'>;
@@ -10,6 +11,7 @@ const { post } = Astro.props;
 ---
 
 <article class="post-card">
+  <PostCover title={post.data.title} image={post.data.image} />
   <time datetime={post.data.pubDate.toISOString()}>{formattedDate(post.data.pubDate)}</time>
   <h2><a href={`/blog/${post.id}/`}>{post.data.title}</a></h2>
   <p>{post.data.description}</p>
