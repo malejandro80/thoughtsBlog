@@ -244,8 +244,8 @@ Expected: `1`
 Run: `grep -o 'class="post-grid"' dist/blog/index.html | wc -l`
 Expected: `1`
 
-Run: `grep -o 'class="container"' dist/index.html | wc -l`
-Expected: `1` (la portada NO se ensancha)
+Run: `grep -o '<main class="container"' dist/index.html | wc -l`
+Expected: `1` (la portada NO se ensancha; el Footer ya usa `class="container"`, por eso se acota al main)
 
 - [ ] **Step 5: Commit**
 
@@ -430,7 +430,7 @@ Run: `grep -rl 'href="/tags/' dist --include='*.html' | wc -l`
 Expected: `0` (ningún enlace roto a tags)
 
 Run: `grep -o '<span>#general</span>' dist/blog/mi-primer-post/index.html | wc -l`
-Expected: `2` (pill del header del post + pill de la tarjeta... si sale 1, revisar: tarjeta Y header deben tenerla)
+Expected: `1` (solo las píldoras del header del post; PostCard no aparece en su propia página)
 
 - [ ] **Step 5: Commit**
 
@@ -493,7 +493,7 @@ Expected: 5 páginas, sin warnings.
 | Check | Comando | Esperado |
 |---|---|---|
 | Fallback portada home | `grep -o '<div class="post-cover cover-fallback"' dist/index.html \| wc -l` | `1` |
-| Grid archivo | `grep -o 'repeat(2, 1fr)' dist/blog/index.html \| wc -l` | `1` |
+| Grid archivo | `grep -o 'repeat(2,1fr)' dist/blog/index.html \| wc -l` | `1` |
 | BackLink archivo | `grep -o 'href="/">← Inicio</a>' dist/blog/index.html \| wc -l` | `1` |
 | BackLink post | `grep -o 'href="/blog/">← Todos los posts</a>' dist/blog/mi-primer-post/index.html \| wc -l` | `1` |
 | Sin enlaces tags | `grep -rl 'href="/tags/' dist --include='*.html' \| wc -l` | `0` |
