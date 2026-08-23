@@ -119,7 +119,7 @@ Después de la línea `<link rel="sitemap" href="/sitemap-index.xml" />` inserta
 Run: `npm run build`
 Expected: build exitoso.
 
-Run: `grep -o 'fonts.googleapis.com[^"]*' dist/index.html | wc -l`
+Run: `grep -o 'fonts.googleapis.com/css2[^"]*' dist/index.html | wc -l`
 Expected: `1`
 
 Run: `grep -o '<meta name="theme-color" content="#f8fafc"' dist/index.html | wc -l`
