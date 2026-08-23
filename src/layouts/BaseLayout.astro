@@ -6,6 +6,7 @@ import '../styles/global.css';
 
 interface Props {
   title: string;
+  wide?: boolean;
   description: string;
   image?: string;
   type?: 'website' | 'article';
@@ -17,6 +18,7 @@ interface Props {
 
 const {
   title,
+  wide = false,
   description,
   image = '/og-default.png',
   type = 'website',
@@ -66,7 +68,7 @@ const ogImage = new URL(image, SITE.url);
   </head>
   <body>
     <Header />
-    <main class="container">
+    <main class:list={['container', { 'container-wide': wide }]}>
       <slot />
     </main>
     <Footer />
