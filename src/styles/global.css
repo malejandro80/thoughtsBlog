@@ -114,9 +114,20 @@ nav a:hover { color: var(--accent-primary); }
   padding-block: 3rem 2rem;
 }
 
-.profile-avatar svg {
-  display: block;
+.profile-avatar {
+  background: var(--accent-gradient);
+  padding: 3px;
   border-radius: 50%;
+  box-shadow: var(--shadow-card);
+}
+
+.profile-avatar img {
+  display: block;
+  width: 112px;
+  height: 112px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #fff;
 }
 
 .profile-info h1 {
