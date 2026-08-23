@@ -468,7 +468,7 @@ image: "/covers/mi-post.png"        # opcional: portada de la tarjeta
 - [ ] **Step 3: Verificar**
 
 Run: `npm run build && grep -o 'content="https://thoughts.miguelintech.com/og-default.png"' dist/blog/mi-primer-post/index.html | wc -l`
-Expected: `1` (og:image default intacto)
+Expected: `2` (og:image Y twitter:image usan el mismo default; ningún post tiene image aún)
 
 - [ ] **Step 4: Commit**
 
