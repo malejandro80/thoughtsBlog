@@ -31,7 +31,7 @@ const jsonLd = {
   dateModified: (post.data.updatedDate ?? post.data.pubDate).toISOString(),
   author: { '@type': 'Person', name: SITE.author },
   publisher: { '@type': 'Person', name: SITE.author },
-  image: new URL('/og-default.png', SITE.url).toString(),
+  image: new URL(post.data.image ?? '/og-default.png', SITE.url).toString(),
   mainEntityOfPage: canonical.toString(),
   ...(post.data.tags.length > 0 && { keywords: post.data.tags.join(', ') }),
 };
