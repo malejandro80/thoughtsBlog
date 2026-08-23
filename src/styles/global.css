@@ -11,7 +11,6 @@
   --accent-primary: #046bd2;
   --accent-secondary: #26b7cd;
   --accent-gradient: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
-  --accent: var(--accent-primary); /* puente temporal: se elimina en Tasks 4-5 */
   --border: #e2e8f0;
 
   /* Radios */
@@ -136,7 +135,17 @@ nav a:hover { color: var(--accent-primary); }
 
 .featured-heading {
   font-size: 1.25rem;
-  margin-block: 0 0.5rem;
+  margin-block: 0 1rem;
+}
+
+.featured-heading::after {
+  content: '';
+  display: block;
+  width: 64px;
+  height: 4px;
+  border-radius: 4px;
+  background: var(--accent-gradient);
+  margin-top: 0.5rem;
 }
 
 @media (max-width: 480px) {
@@ -146,22 +155,54 @@ nav a:hover { color: var(--accent-primary); }
   }
 }
 
-.post-card { padding-block: 1.5rem; border-bottom: 1px solid var(--border); }
+.post-card {
+  background: var(--surface);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  padding: 1.5rem;
+  transition: transform 0.4s var(--ease), box-shadow 0.4s var(--ease);
+}
+.post-card + .post-card { margin-top: 1rem; }
+.post-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-hover);
+}
+@media (prefers-reduced-motion: reduce) {
+  .post-card {
+    transition: none;
+  }
+  .post-card:hover {
+    transform: none;
+  }
+}
 .post-card time { color: var(--muted); font-size: 0.875rem; }
 .post-card h2 { margin: 0.25rem 0; font-size: 1.25rem; }
 .post-card h2 a { color: var(--text); text-decoration: none; }
-.post-card h2 a:hover { color: var(--accent); }
+.post-card h2 a:hover { color: var(--accent-primary); }
+.post-card p { color: var(--muted); margin-bottom: 0; }
 
 .tags {
   list-style: none;
   display: flex;
   gap: 0.5rem;
   padding: 0;
-  margin: 0.5rem 0 0;
+  margin: 0.75rem 0 0;
   flex-wrap: wrap;
 }
-.tags a { color: var(--muted); font-size: 0.875rem; text-decoration: none; }
-.tags a:hover { color: var(--accent); }
+.tags a {
+  background: rgba(4, 107, 210, 0.08);
+  color: var(--accent-primary);
+  padding: 4px 12px;
+  border-radius: var(--radius-pill);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.3s var(--ease), color 0.3s var(--ease);
+}
+.tags a:hover {
+  background: var(--accent-primary);
+  color: #fff;
+}
 
 .post-header { padding-block: 3rem 1rem; }
 .post-header h1 { margin-bottom: 0.5rem; }
