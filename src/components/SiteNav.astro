@@ -1,0 +1,30 @@
+---
+import { SITE } from '../consts';
+
+interface Props {
+  label: string;
+}
+
+const { label } = Astro.props;
+const path = Astro.url.pathname;
+const isHome = path === '/';
+const isBlog = path.startsWith('/blog');
+---
+
+<nav aria-label={label}>
+  <a
+    href="/"
+    class:list={['nav-link', { 'is-active': isHome }]}
+    aria-current={isHome ? 'page' : undefined}
+  >
+    Inicio
+  </a>
+  <a
+    href="/blog/"
+    class:list={['nav-link', { 'is-active': isBlog }]}
+    aria-current={isBlog ? 'page' : undefined}
+  >
+    Blog
+  </a>
+  <a class="nav-link" href={SITE.portfolio}>Portafolio</a>
+</nav>

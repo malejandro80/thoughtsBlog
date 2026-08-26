@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#16213e"/>
+  <rect x="80" y="100" width="480" height="200" rx="12" fill="#1a1a2e" stroke="#e94560" stroke-width="2"/>
+  <text x="320" y="180" font-family="monospace" font-size="20" fill="#0f3460" text-anchor="middle">function learn() {</text>
+  <text x="320" y="210" font-family="monospace" font-size="20" fill="#e94560" text-anchor="middle">  return "TypeScript";</text>
+  <text x="320" y="240" font-family="monospace" font-size="20" fill="#0f3460" text-anchor="middle">}</text>
+</svg>

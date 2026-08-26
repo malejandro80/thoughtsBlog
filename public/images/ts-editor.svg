@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#2d2d2d"/>
+  <rect x="40" y="60" width="560" height="240" rx="8" fill="#1e1e1e"/>
+  <text x="60" y="100" font-family="monospace" font-size="14" fill="#569cd6">const</text>
+  <text x="140" y="100" font-family="monospace" font-size="14" fill="#9cdcfe"> blog</text>
+  <text x="210" y="100" font-family="monospace" font-size="14" fill="#d4d4d4"> = {</text>
+  <text x="80" y="125" font-family="monospace" font-size="14" fill="#ce9178">  title:</text>
+  <text x="200" y="125" font-family="monospace" font-size="14" fill="#ce9178"> "Mi Blog",</text>
+  <text x="80" y="150" font-family="monospace" font-size="14" fill="#ce9178">  posts:</text>
+  <text x="200" y="150" font-family="monospace" font-size="14" fill="#b5cea8"> 42</text>
+  <text x="80" y="175" font-family="monospace" font-size="14" fill="#ce9178">  framework:</text>
+  <text x="220" y="175" font-family="monospace" font-size="14" fill="#ce9178"> "Astro"</text>
+  <text x="60" y="200" font-family="monospace" font-size="14" fill="#d4d4d4">};</text>
+  <text x="60" y="260" font-family="monospace" font-size="14" fill="#6a9955">// El poder de TypeScript</text>
+</svg>

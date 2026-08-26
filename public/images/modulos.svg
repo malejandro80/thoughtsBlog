@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#0f3460"/>
+  <rect x="100" y="100" width="120" height="160" rx="4" fill="#16213e" stroke="#e94560" stroke-width="1"/>
+  <rect x="260" y="80" width="120" height="180" rx="4" fill="#16213e" stroke="#533483" stroke-width="1"/>
+  <rect x="420" y="120" width="120" height="140" rx="4" fill="#16213e" stroke="#e94560" stroke-width="1"/>
+  <text x="160" y="190" font-family="sans-serif" font-size="14" fill="#bbb" text-anchor="middle">Módulo A</text>
+  <text x="320" y="180" font-family="sans-serif" font-size="14" fill="#bbb" text-anchor="middle">Módulo B</text>
+  <text x="480" y="200" font-family="sans-serif" font-size="14" fill="#bbb" text-anchor="middle">Módulo C</text>
+  <path d="M220 170 L260 170" stroke="#533483" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M380 170 L420 170" stroke="#533483" stroke-width="2" marker-end="url(#arrow)"/>
+  <defs><marker id="arrow" markerWidth="6" markerHeight="6" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="#533483"/></marker></defs>
+  <text x="320" y="320" font-family="sans-serif" font-size="16" fill="#bbe1fa" text-anchor="middle">Arquitectura modular</text>
+</svg>

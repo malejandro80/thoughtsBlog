@@ -7,12 +7,14 @@ interface Props {
 const { title, image } = Astro.props;
 ---
 
-{
-  image ? (
-    <img class="post-cover" src={image} alt="" width="640" height="360" loading="lazy" />
-  ) : (
-    <div class="post-cover cover-fallback" aria-hidden="true">
-      <span>{title.charAt(0).toUpperCase()}</span>
-    </div>
-  )
-}
+<div class="post-cover-frame">
+  {
+    image ? (
+      <img class="post-cover" src={image} alt="" width="640" height="360" loading="lazy" />
+    ) : (
+      <div class="post-cover cover-fallback" aria-hidden="true">
+        <span>{title.charAt(0).toUpperCase()}</span>
+      </div>
+    )
+  }
+</div>

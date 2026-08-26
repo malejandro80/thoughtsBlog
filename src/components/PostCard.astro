@@ -11,17 +11,21 @@ const { post } = Astro.props;
 ---
 
 <article class="post-card">
-  <PostCover title={post.data.title} image={post.data.image} />
-  <time datetime={post.data.pubDate.toISOString()}>{formattedDate(post.data.pubDate)}</time>
-  <h2><a href={`/blog/${post.id}/`}>{post.data.title}</a></h2>
-  <p>{post.data.description}</p>
-  {
-    post.data.tags.length > 0 && (
-      <ul class="tags">
-        {post.data.tags.map((tag) => (
-          <li><span>#{tag}</span></li>
-        ))}
-      </ul>
-    )
-  }
+  <a href={`/blog/${post.id}/`} class="post-cover-link" aria-label={`Leer ${post.data.title}`}>
+    <PostCover title={post.data.title} image={post.data.image} />
+  </a>
+  <div class="post-card-body">
+    <time datetime={post.data.pubDate.toISOString()}>{formattedDate(post.data.pubDate)}</time>
+    <h2><a href={`/blog/${post.id}/`}>{post.data.title}</a></h2>
+    <p>{post.data.description}</p>
+    {
+      post.data.tags.length > 0 && (
+        <ul class="tags">
+          {post.data.tags.map((tag) => (
+            <li><span>#{tag}</span></li>
+          ))}
+        </ul>
+      )
+    }
+  </div>
 </article>

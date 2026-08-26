@@ -1,11 +1,20 @@
 ---
 import { SITE } from '../consts';
+import SiteNav from './SiteNav.astro';
 
 const year = new Date().getFullYear();
 ---
 
 <footer class="site-footer">
-  <div class="container">
-    <p>© {year} {SITE.author} · <a href="/rss.xml">RSS</a></p>
+  <div class="chrome footer-inner">
+    <div class="footer-brand">
+      <a href="/" class="site-title">{SITE.title}</a>
+      <p>{SITE.description}</p>
+    </div>
+    <SiteNav label="Pie de página" />
+  </div>
+  <div class="chrome footer-copy">
+    <p>© {year} {SITE.author}</p>
+    <a href="/rss.xml">RSS</a>
   </div>
 </footer>
