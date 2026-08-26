@@ -1,0 +1,21 @@
+---
+title: 'Reflexiones de café: sobre la gestion y la gobernanza'
+description: 'Sin lugar a dudas, en todos nosotros vive la capacidad de liderar o ejercer la administración o logística, pero, ¿podemos hacerlo realmente?'
+pubDate: 2026-08-25
+tags: ['gestion', 'sociedad']
+image: '/images/coffee.svg'
+---
+
+<!-- @format -->
+
+A mis 23 años aproximadamente, viví en el conjunto residencial Las Américas en Valencia, Venezuela, un grupo de torres de 16 pisos con 4 apartamentos por piso. Si en promedio hubieran 2 personas por apartamento, estamos hablando de que, en la torre donde vivía habría el equivalente a un grupo de personas de 64 integrantes, sería como tener a una Junta de representantes donde tanto mamá como papá asistieran, habría que buscar más sillas en el salón de al lado de seguro. Usualmente, para todo lo relacionado con edificios y apartamentos se contrata a un servicio externo que lleve las labores logísticas y administrativas de las áreas comunes, limpieza y servicios. Para aquella época en Venezuela, donde éramos ricos pero no en dinero exactamente, se acordó llevar la administración internamente con una junta de condominio con puestos como presidente, secretario y tesorero.
+
+Para la época que yo viví, mi vecino adyacente Roland era el presidente, una persona que, algunas veces coincidíamos de bajada en el ascensor, por lo que varias veces pudimos hablar de la vida, política y la situación económica del país, un tema bastante común para los venezolanos. Déjenme les hablo un poco de Roland: Administrador de empresas de la Universidad Simón Bolívar, magíster en finanzas, Director del departamento de cartera de la fábrica avícola Qué Pollo, y según recuerdo, como 10 años de experiencia trabajando con cuentas y cartera. Ese man es el propio para presidir la administración del condominio, ¿no? ¿Quién mejor calificado para gestionar los recursos de un diminuto espacio al que 64 personalidades, incluyéndome, llamaban hogar? Y en efecto, recuerdo que las cuotas no eran para nada exageradas, las áreas públicas se mantenían muy bien cuidadas y en general todo funcionaba relativamente bien dentro de la realidad de una Venezuela del 2019.
+
+Fuera de mi experiencia personal, la realidad era otra. Los vecinos con constantes quejas, usualmente porque algún servicio no funcionaba (recordemos, Venezuela 2019), la administración era muy costosa, tampoco falta aquel que dentro de grupos de WhatsApp de vecinos que manifestaban que la administración era una cuerda de ladrones y pare de contar. Por lo que, una vez terminado su semestre de gestión, Roland entregó su puesto (y se sintió realmente feliz de entregar) y más nunca se postuló a un puesto administrativo en el conjunto residencial. Recuerdo que me dijo: "No importa que tan buen administrador seas, siempre habrá gente que tache de corrupto, ladrón, injusto o todas a la vez".
+
+A modo de análisis de esta vivencia personal, en las dinámicas sociales, sean tan pequeñas como 2 personas o tan grandes como un país, si eres el administrador, debes estar preparado para la crítica. No importa que tan bueno seas, siempre habrá alguien que puede hacer lo que haces de mejor manera, aunque es casi seguro que sea solo en pensamiento, y ese, precisamente es el detalle: todos piensan y ladran, al final de cuentas es gratis, pero una ínfima minoría realmente está dispuesta a hacer y tomar responsabilidades. Y los que lo hacen, me quito el sombrero ante ellos.
+
+Quizás por eso, Don Mateo por allá en tiempos de Jesucristo dijo: "Muchos son los llamados, pero pocos los escogidos". Hay muchos que dicen que pueden hacer, tal vez por el sesgo de creer que hacer es fácil cuando lo ves en alguien más, aunado a la voz de nuestro propio ego que, de aquella forma tan convencida dice: "pff eso lo hago yo con una mano en la espalda y con la otra rascandome la entrepierna" pero fuera de eso, muy pocos con la determinación de ponerse la 10, como dicen por ahí. Para criticar hay por cantidades, pero gente con las bolas y los ovarios para echarse esos peos encima, muy pocos.
+
+Si un día estás en una posición de donde debes administrar, y sientes que todo el mundo te critica, vale recordar por qué muchos son los llamados y pocos los escogidos.
