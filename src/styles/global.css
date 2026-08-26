@@ -150,9 +150,13 @@ a:focus-visible {
 }
 .btn-outline {
   color: var(--text);
-  background: transparent;
+  background: #fff;
   border-color: var(--border);
   box-shadow: none;
+}
+
+.mt-2 {
+  margin-top: 2rem;
 }
 .btn-outline:hover {
   color: var(--accent-primary);
@@ -327,8 +331,16 @@ a:focus-visible {
   will-change: transform;
 }
 
-.post-cover-link { display: block; text-decoration: none; color: inherit; }
-.post-cover-link:focus-visible { outline: 3px solid rgba(4,107,210,0.12); outline-offset: 4px; border-radius: var(--radius-lg); }
+.post-cover-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+.post-cover-link:focus-visible {
+  outline: 3px solid rgba(4, 107, 210, 0.12);
+  outline-offset: 4px;
+  border-radius: var(--radius-lg);
+}
 .post-card:hover {
   transform: translateY(-4px);
   box-shadow: var(--shadow-hover);
