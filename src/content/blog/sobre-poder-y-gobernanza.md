@@ -2,8 +2,8 @@
 title: 'Reflexiones de café: sobre la gestion y la gobernanza'
 description: 'Sin lugar a dudas, en todos nosotros vive la capacidad de liderar o ejercer la administración o logística, pero, ¿podemos hacerlo realmente?'
 pubDate: 2026-08-25
-tags: ['gestion', 'sociedad']
-image: '/images/coffee.svg'
+tags: ['Administracion', 'sociedad', 'critica social']
+image: '/images/post_1'
 ---
 
 <!-- @format -->
