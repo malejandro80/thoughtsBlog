@@ -6,6 +6,7 @@ import BackLink from '../../components/BackLink.astro';
 import { SITE } from '../../consts';
 import { getPublishedPosts } from '../../utils/posts';
 import { formattedDate } from '../../utils/formattedDate';
+import Footnote from '../../components/Footnote.astro';
 
 export async function getStaticPaths() {
   const posts = await getPublishedPosts();
@@ -73,5 +74,6 @@ const jsonLd = {
     <div class="prose">
       <Content />
     </div>
+    <Footnote />
   </article>
 </BaseLayout>
