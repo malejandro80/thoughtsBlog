@@ -3,7 +3,9 @@ interface Props {
   text?: string;
 }
 
-const { text = "Texto por defecto del pie de nota" } = Astro.props;
+const defaultText=`La intención principal de este post es pensar y hacer pensar, independientemente del sentimiento que pueda suscitar. Si así ha sido el caso me doy por bien servido y como dice el meme: "Mi trabajo aquí ha terminado"`
+
+const { text = defaultText } = Astro.props;
 ---
 
 <aside class="footnote">
