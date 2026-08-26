@@ -1,0 +1,26 @@
+---
+interface Props {
+  text?: string;
+}
+
+const { text = "Texto por defecto del pie de nota" } = Astro.props;
+---
+
+<aside class="footnote">
+  <p>{text}</p>
+</aside>
+
+<style>
+  .footnote {
+    margin-top: 2rem;
+    padding: 1rem 1.25rem;
+    background: var(--surface-muted);
+    border-left: 3px solid var(--accent-primary);
+    border-radius: var(--radius-sm);
+    font-size: 0.9rem;
+    color: var(--muted);
+  }
+  .footnote p {
+    margin: 0;
+  }
+</style>
