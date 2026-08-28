@@ -1,0 +1,31 @@
+:root {
+  /* Color */
+  --bg: #0f172a;
+  --surface: #1e293b;
+  --surface-muted: #334155;
+  --text: #f1f5f9;
+  --muted: #94a3b8;
+  --accent-primary: #3b82f6;
+  --accent-secondary: #22d3ee;
+  --accent-gradient: linear-gradient(
+    135deg,
+    var(--accent-primary),
+    var(--accent-secondary)
+  );
+  --border: #334155;
+
+  /* Aliases */
+  --bg-primary: var(--bg);
+  --text-primary: var(--text);
+  --text-secondary: var(--text);
+  --text-muted: var(--muted);
+  --accent-color: var(--accent-primary);
+  --gradient-glow: var(--accent-secondary);
+  --logo: var(--accent-primary);
+  --nav: var(--muted);
+  --chrome-bg: rgba(15, 23, 42, 0.85);
+
+  /* Shadows (dark-specific) */
+  --shadow-card: 0 20px 40px -15px rgba(0, 0, 0, 0.3);
+  --shadow-hover: 0 30px 60px -15px rgba(59, 130, 246, 0.2);
+}

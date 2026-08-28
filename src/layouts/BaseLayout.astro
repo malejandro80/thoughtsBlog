@@ -46,7 +46,31 @@ const ogImage = new URL(image, SITE.url);
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="alternate" type="application/rss+xml" title={SITE.title} href="/rss.xml" />
     <link rel="sitemap" href="/sitemap-index.xml" />
-    <meta name="theme-color" content="#f8fafc" />
+    <script is:inline>
+      (function () {
+        var lightCSS = ':root{--bg:#f8fafc;--surface:#fff;--surface-muted:#f1f5f9;--text:#0f172a;--muted:#64748b;--accent-primary:#046bd2;--accent-secondary:#26b7cd;--accent-gradient:linear-gradient(135deg,var(--accent-primary),var(--accent-secondary));--border:#e2e8f0;--bg-primary:var(--bg);--text-primary:var(--text);--text-secondary:var(--text);--text-muted:var(--muted);--accent-color:var(--accent-primary);--gradient-glow:var(--accent-secondary);--logo:var(--accent-primary);--nav:var(--muted);--chrome-bg:rgba(255,255,255,0.85);--shadow-card:0 20px 40px -15px rgba(15,23,42,0.08);--shadow-hover:0 30px 60px -15px rgba(4,107,210,0.12)}';
+        var darkCSS = ':root{--bg:#0f172a;--surface:#1e293b;--surface-muted:#334155;--text:#f1f5f9;--muted:#94a3b8;--accent-primary:#3b82f6;--accent-secondary:#22d3ee;--accent-gradient:linear-gradient(135deg,var(--accent-primary),var(--accent-secondary));--border:#334155;--bg-primary:var(--bg);--text-primary:var(--text);--text-secondary:var(--text);--text-muted:var(--muted);--accent-color:var(--accent-primary);--gradient-glow:var(--accent-secondary);--logo:var(--accent-primary);--nav:var(--muted);--chrome-bg:rgba(15,23,42,0.85);--shadow-card:0 20px 40px -15px rgba(0,0,0,0.3);--shadow-hover:0 30px 60px -15px rgba(59,130,246,0.2)}';
+
+        var lightEl = document.createElement('style');
+        lightEl.id = 'theme-light';
+        lightEl.textContent = lightCSS;
+        document.head.appendChild(lightEl);
+
+        var darkEl = document.createElement('style');
+        darkEl.id = 'theme-dark';
+        darkEl.textContent = darkCSS;
+        darkEl.disabled = true;
+        document.head.appendChild(darkEl);
+
+        var t = localStorage.getItem('theme')
+          || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        document.documentElement.dataset.theme = t;
+        if (t === 'dark') { lightEl.disabled = true; darkEl.disabled = false; }
+        var meta = document.querySelector('meta[name="theme-color"]');
+        if (meta) meta.content = t === 'dark' ? '#0f172a' : '#f8fafc';
+      })();
+    </script>
+    <meta name="theme-color" id="theme-color" content="#f8fafc" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Montserrat:wght@500;700&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet" />
