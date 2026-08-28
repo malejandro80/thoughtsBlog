@@ -1,16 +1,16 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import { render } from 'astro:content';
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import BackLink from '../../components/BackLink.astro';
-import { SITE } from '../../consts';
-import { getPublishedPosts, stripLocale } from '../../utils/posts';
-import { formattedDate } from '../../utils/formattedDate';
-import Footnote from '../../components/Footnote.astro';
-import { useTranslations } from '../../utils/locale';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import BackLink from '../../../components/BackLink.astro';
+import { SITE } from '../../../consts';
+import { getPublishedPosts, stripLocale } from '../../../utils/posts';
+import { formattedDate } from '../../../utils/formattedDate';
+import Footnote from '../../../components/Footnote.astro';
+import { useTranslations } from '../../../utils/locale';
 
 export async function getStaticPaths() {
-  const posts = await getPublishedPosts('es');
+  const posts = await getPublishedPosts('en');
   return posts.map((post) => ({
     params: { slug: stripLocale(post.id) },
     props: { post },
@@ -23,10 +23,10 @@ interface Props {
 
 const { post } = Astro.props;
 const { Content } = await render(post);
-const locale = 'es';
+const locale = 'en';
 const t = useTranslations(locale);
 const slug = stripLocale(post.id);
-const canonical = new URL(`/blog/${slug}/`, SITE.url);
+const canonical = new URL(`/en/blog/${slug}/`, SITE.url);
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'BlogPosting',
@@ -54,7 +54,7 @@ const jsonLd = {
 >
   <article>
     <p class="section-cta-start">
-      <BackLink href="/blog/" label={t.back.blog} />
+      <BackLink href="/en/blog/" label={t.back.blog} />
     </p>
     {post.data.image && (
       <img class="article-cover" src={post.data.image} alt={post.data.title} width="640" height="360" loading="eager" />
