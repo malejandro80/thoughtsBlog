@@ -4,14 +4,14 @@ import { render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import BackLink from '../../components/BackLink.astro';
 import { SITE } from '../../consts';
-import { getPublishedPosts } from '../../utils/posts';
+import { getPublishedPosts, stripLocale } from '../../utils/posts';
 import { formattedDate } from '../../utils/formattedDate';
 import Footnote from '../../components/Footnote.astro';
 
 export async function getStaticPaths() {
   const posts = await getPublishedPosts();
   return posts.map((post) => ({
-    params: { slug: post.id },
+    params: { slug: stripLocale(post.id) },
     props: { post },
   }));
 }
@@ -22,7 +22,7 @@ interface Props {
 
 const { post } = Astro.props;
 const { Content } = await render(post);
-const canonical = new URL(`/blog/${post.id}/`, SITE.url);
+const canonical = new URL(`/blog/${stripLocale(post.id)}/`, SITE.url);
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'BlogPosting',
