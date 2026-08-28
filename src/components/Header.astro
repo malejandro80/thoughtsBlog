@@ -5,10 +5,14 @@ import SiteNav from './SiteNav.astro';
 const locale = Astro.currentLocale ?? 'es';
 const other = locale === 'es' ? 'en' : 'es';
 const path = Astro.url.pathname;
-// Strip /en/ prefix when switching to Spanish, add /en/ when switching to English
-const switchUrl = other === 'en'
-  ? `/en${path === '/' ? '/' : path}`
-  : path.replace(/^\/en/, '') || '/';
+const isBlogPost = /^\/(en\/)?blog\/[^/]+\/?$/.test(path);
+// On blog posts, link to blog listing in other locale (posts may not have translations)
+// On other pages, switch the locale prefix
+const switchUrl = isBlogPost
+  ? (other === 'en' ? '/en/blog/' : '/blog/')
+  : (other === 'en'
+    ? `/en${path === '/' ? '/' : path}`
+    : path.replace(/^\/en/, '') || '/');
 ---
 
 <header class="site-header">

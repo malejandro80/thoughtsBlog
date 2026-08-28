@@ -11,21 +11,27 @@ import { useTranslations } from '../../utils/locale';
 
 export async function getStaticPaths() {
   const posts = await getPublishedPosts();
-  return posts.map((post) => ({
-    params: { slug: stripLocale(post.id) },
-    props: { post },
-  }));
+  return posts.map((post) => {
+    const locale = post.id.split('/')[0];
+    const slug = stripLocale(post.id);
+    return {
+      params: { slug, locale },
+      props: { post, locale },
+    };
+  });
 }
 
 interface Props {
   post: CollectionEntry<'blog'>;
+  locale: string;
 }
 
-const { post } = Astro.props;
+const { post, locale } = Astro.props;
 const { Content } = await render(post);
-const locale = Astro.currentLocale ?? 'es';
 const t = useTranslations(locale);
-const canonical = new URL(`/blog/${stripLocale(post.id)}/`, SITE.url);
+const slug = stripLocale(post.id);
+const blogPath = locale === 'en' ? '/en/blog' : '/blog';
+const canonical = new URL(`${blogPath}/${slug}/`, SITE.url);
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'BlogPosting',
@@ -53,7 +59,7 @@ const jsonLd = {
 >
   <article>
     <p class="section-cta-start">
-      <BackLink href="/blog/" label={t.back.blog} />
+      <BackLink href={`${blogPath}/`} label={t.back.blog} />
     </p>
     {post.data.image && (
       <img class="article-cover" src={post.data.image} alt={post.data.title} width="640" height="360" loading="eager" />
