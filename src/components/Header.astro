@@ -1,11 +1,14 @@
 ---
 import { SITE } from '../consts';
 import SiteNav from './SiteNav.astro';
-import { getRelativeLocaleUrl } from 'astro:i18n';
 
 const locale = Astro.currentLocale ?? 'es';
 const other = locale === 'es' ? 'en' : 'es';
-const switchUrl = getRelativeLocaleUrl(other, Astro.url.pathname);
+const path = Astro.url.pathname;
+// Strip /en/ prefix when switching to Spanish, add /en/ when switching to English
+const switchUrl = other === 'en'
+  ? `/en${path === '/' ? '/' : path}`
+  : path.replace(/^\/en/, '') || '/';
 ---
 
 <header class="site-header">
