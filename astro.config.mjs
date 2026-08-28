@@ -8,4 +8,11 @@ export default defineConfig({
   build: {
     inlineStylesheets: 'always',
   },
+  i18n: {
+    locales: ['es', 'en'],
+    defaultLocale: 'es',
+    routing: {
+      prefixDefaultLocale: false,
+    },
+  },
 });
