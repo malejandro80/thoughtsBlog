@@ -12,15 +12,14 @@ const { post } = Astro.props;
 const locale = Astro.currentLocale ?? 'es';
 const slug = stripLocale(post.id);
 const blogPath = locale === 'en' ? '/en/blog' : '/blog';
+const href = `${blogPath}/${slug}/`;
 ---
 
-<article class="post-card">
-  <a href={`${blogPath}/${slug}/`} class="post-cover-link" aria-label={`Leer ${post.data.title}`}>
-    <PostCover title={post.data.title} image={post.data.image} />
-  </a>
+<a href={href} class="post-card" aria-label={`Leer ${post.data.title}`}>
+  <PostCover title={post.data.title} image={post.data.image} />
   <div class="post-card-body">
-    <time datetime={post.data.pubDate.toISOString()}>{formattedDate(post.data.pubDate)}</time>
-    <h2><a href={`${blogPath}/${slug}/`}>{post.data.title}</a></h2>
+    <time datetime={post.data.pubDate.toISOString()}>{formattedDate(post.data.pubDate, locale)}</time>
+    <h2>{post.data.title}</h2>
     <p>{post.data.description}</p>
     {
       post.data.tags.length > 0 && (
@@ -32,4 +31,4 @@ const blogPath = locale === 'en' ? '/en/blog' : '/blog';
       )
     }
   </div>
-</article>
+</a>

@@ -306,27 +306,26 @@ a:focus-visible {
 }
 
 .post-card {
+  display: block;
   overflow: hidden;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-card);
+  text-decoration: none;
+  color: inherit;
   transition:
     transform 0.4s var(--ease),
     box-shadow 0.4s var(--ease);
   will-change: transform;
 }
 
-.post-cover-link {
-  display: block;
-  text-decoration: none;
-  color: inherit;
-}
-.post-cover-link:focus-visible {
+.post-card:focus-visible {
   outline: 3px solid rgba(4, 107, 210, 0.12);
   outline-offset: 4px;
   border-radius: var(--radius-lg);
 }
+
 .post-card:hover {
   transform: translateY(-4px);
   box-shadow: var(--shadow-hover);
@@ -360,15 +359,8 @@ a:focus-visible {
 }
 
 /* Escala sutil de la imagen al pasar por encima de la tarjeta */
-.post-card:hover .post-cover,
-.post-card:focus-within .post-cover {
+.post-card:hover .post-cover {
   transform: scale(1.04);
-}
-
-/* Soporte para teclado: elevar tarjeta si el enlace interno está enfocado */
-.post-card:focus-within {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-hover);
 }
 
 .article-cover {
@@ -438,12 +430,9 @@ a:focus-visible {
 .post-card h2 {
   margin: 0.25rem 0;
   font-size: 1.25rem;
-}
-.post-card h2 a {
   color: var(--text);
-  text-decoration: none;
 }
-.post-card h2 a:hover {
+.post-card:hover h2 {
   color: var(--accent-primary);
 }
 .post-card p {
