@@ -1,10 +1,14 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { SITE } from '../consts';
+import { useTranslations } from '../utils/locale';
+
+const locale = Astro.currentLocale ?? 'es';
+const t = useTranslations(locale);
 ---
 
-<BaseLayout title={`404 · ${SITE.title}`} description="Página no encontrada.">
-  <h1>404</h1>
-  <p>No encontré esta página.</p>
-  <p><a class="btn btn-primary" href="/">Volver al inicio</a></p>
+<BaseLayout title={`${t.notFound.title} · ${SITE.title}`} description={t.notFound.message}>
+  <h1>{t.notFound.title}</h1>
+  <p>{t.notFound.message}</p>
+  <p><a class="btn btn-primary" href="/">{t.notFound.back}</a></p>
 </BaseLayout>

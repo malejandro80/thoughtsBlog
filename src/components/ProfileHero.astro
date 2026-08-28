@@ -1,5 +1,9 @@
 ---
 import { SITE } from '../consts';
+import { useTranslations } from '../utils/locale';
+
+const locale = Astro.currentLocale ?? 'es';
+const t = useTranslations(locale);
 ---
 
 <section class="profile-hero">
@@ -8,6 +12,6 @@ import { SITE } from '../consts';
   </div>
   <div class="profile-info">
     <h1>{SITE.author}</h1>
-    <p>{SITE.description}</p>
+    <p>{SITE.locales[locale as 'es' | 'en']?.description ?? SITE.description}</p>
   </div>
 </section>

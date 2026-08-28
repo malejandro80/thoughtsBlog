@@ -1,14 +1,13 @@
 ---
-import { SITE } from '../consts';
-
 interface Props {
   label: string;
 }
 
 const { label } = Astro.props;
 const path = Astro.url.pathname;
-const isHome = path === '/';
-const isBlog = path.startsWith('/blog');
+const locale = Astro.currentLocale ?? 'es';
+const isHome = path === '/' || path === `/${locale}/`;
+const isBlog = path.startsWith('/blog') || path.startsWith(`/${locale}/blog`);
 ---
 
 <nav aria-label={label}>
@@ -17,7 +16,7 @@ const isBlog = path.startsWith('/blog');
     class:list={['nav-link', { 'is-active': isHome }]}
     aria-current={isHome ? 'page' : undefined}
   >
-    Inicio
+    {locale === 'en' ? 'Home' : 'Inicio'}
   </a>
   <a
     href="/blog/"
@@ -26,5 +25,5 @@ const isBlog = path.startsWith('/blog');
   >
     Blog
   </a>
-  <a class="nav-link" href={SITE.portfolio}>Portafolio</a>
+  <a class="nav-link" href="https://miguelintech.com/">{locale === 'en' ? 'Portfolio' : 'Portafolio'}</a>
 </nav>

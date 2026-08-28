@@ -692,3 +692,26 @@ a:focus-visible {
     transition: none;
   }
 }
+
+/* Language toggle */
+.lang-toggle {
+  font-family: var(--font-chrome);
+  font-weight: 700;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+  color: var(--nav);
+  padding: 0.35em 0.6em;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  transition:
+    color 0.2s var(--ease),
+    border-color 0.2s var(--ease),
+    background 0.2s var(--ease);
+}
+
+.lang-toggle:hover {
+  color: var(--accent-primary);
+  border-color: var(--accent-primary);
+  background: rgba(4, 107, 210, 0.08);
+}

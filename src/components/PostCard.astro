@@ -1,6 +1,7 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import { formattedDate } from '../utils/formattedDate';
+import { stripLocale } from '../utils/posts';
 import PostCover from './PostCover.astro';
 
 interface Props {
@@ -8,15 +9,18 @@ interface Props {
 }
 
 const { post } = Astro.props;
+const locale = Astro.currentLocale ?? 'es';
+const slug = stripLocale(post.id);
+const blogPath = locale === 'en' ? '/en/blog' : '/blog';
 ---
 
 <article class="post-card">
-  <a href={`/blog/${post.id}/`} class="post-cover-link" aria-label={`Leer ${post.data.title}`}>
+  <a href={`${blogPath}/${slug}/`} class="post-cover-link" aria-label={`Leer ${post.data.title}`}>
     <PostCover title={post.data.title} image={post.data.image} />
   </a>
   <div class="post-card-body">
     <time datetime={post.data.pubDate.toISOString()}>{formattedDate(post.data.pubDate)}</time>
-    <h2><a href={`/blog/${post.id}/`}>{post.data.title}</a></h2>
+    <h2><a href={`${blogPath}/${slug}/`}>{post.data.title}</a></h2>
     <p>{post.data.description}</p>
     {
       post.data.tags.length > 0 && (

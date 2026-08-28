@@ -3,6 +3,9 @@ export const SITE = {
   title: 'Thoughts',
   description: 'Pensamientos y aprendizajes sobre programación y tecnología.',
   author: 'Miguel Bastidas',
-  locale: 'es',
   portfolio: 'https://miguelintech.com/',
-};
+  locales: {
+    es: { description: 'Pensamientos y aprendizajes sobre programación y tecnología.' },
+    en: { description: 'Thoughts and learnings about programming and technology.' },
+  },
+} as const;

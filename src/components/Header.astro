@@ -1,6 +1,11 @@
 ---
 import { SITE } from '../consts';
 import SiteNav from './SiteNav.astro';
+import { getRelativeLocaleUrl } from 'astro:i18n';
+
+const locale = Astro.currentLocale ?? 'es';
+const other = locale === 'es' ? 'en' : 'es';
+const switchUrl = getRelativeLocaleUrl(other, Astro.url.pathname);
 ---
 
 <header class="site-header">
@@ -8,6 +13,13 @@ import SiteNav from './SiteNav.astro';
     <a href="/" class="site-title">{SITE.title}</a>
     <div class="header-right">
       <SiteNav label="Navegación principal" />
+      <a
+        href={switchUrl}
+        class="lang-toggle"
+        aria-label={locale === 'es' ? 'Switch to English' : 'Cambiar a español'}
+      >
+        {locale === 'es' ? 'EN' : 'ES'}
+      </a>
       <button
         class="theme-toggle"
         id="theme-toggle"

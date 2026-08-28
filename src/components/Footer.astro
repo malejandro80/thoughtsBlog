@@ -1,7 +1,10 @@
 ---
 import { SITE } from '../consts';
 import SiteNav from './SiteNav.astro';
+import { useTranslations } from '../utils/locale';
 
+const locale = Astro.currentLocale ?? 'es';
+const t = useTranslations(locale);
 const year = new Date().getFullYear();
 ---
 
@@ -9,12 +12,12 @@ const year = new Date().getFullYear();
   <div class="chrome footer-inner">
     <div class="footer-brand">
       <a href="/" class="site-title">{SITE.title}</a>
-      <p>{SITE.description}</p>
+      <p>{SITE.locales[locale as 'es' | 'en']?.description ?? SITE.description}</p>
     </div>
     <SiteNav label="Pie de página" />
   </div>
   <div class="chrome footer-copy">
     <p>© {year} {SITE.author}</p>
-    <a href="/rss.xml">RSS</a>
+    <a href="/rss.xml">{t.footer.rss}</a>
   </div>
 </footer>

@@ -1,12 +1,12 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
-import PostCard from '../components/PostCard.astro';
-import ProfileHero from '../components/ProfileHero.astro';
-import { SITE } from '../consts';
-import { getFeaturedPosts } from '../utils/posts';
-import { useTranslations } from '../utils/locale';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostCard from '../../components/PostCard.astro';
+import ProfileHero from '../../components/ProfileHero.astro';
+import { SITE } from '../../consts';
+import { getFeaturedPosts } from '../../utils/posts';
+import { useTranslations } from '../../utils/locale';
 
-const locale = Astro.currentLocale ?? 'es';
+const locale = Astro.currentLocale ?? 'en';
 const t = useTranslations(locale);
 const posts = await getFeaturedPosts(3, locale);
 ---
@@ -22,6 +22,6 @@ const posts = await getFeaturedPosts(3, locale);
   </section>
 
   <p class="section-cta">
-    <a class="btn btn-primary" href="/blog/">{t.home.viewAll}</a>
+    <a class="btn btn-primary" href="/en/blog/">{t.home.viewAll}</a>
   </p>
 </BaseLayout>
