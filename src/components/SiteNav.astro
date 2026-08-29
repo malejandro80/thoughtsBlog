@@ -25,21 +25,21 @@ const isBlog = path.startsWith('/blog') || path.startsWith(`/${locale}/blog`);
   >
     Blog
   </a>
-  <a id="portfolio-link" class="nav-link" href="https://miguelintech.com/">{locale === 'en' ? 'Portfolio' : 'Portafolio'}</a>
+  <a class="nav-link portfolio-link" href="https://miguelintech.com/">{locale === 'en' ? 'Portfolio' : 'Portafolio'}</a>
 </nav>
 
 <script is:inline>
   (function () {
     var d = window.dataLayer || (window.dataLayer = []);
-    var link = document.getElementById('portfolio-link');
-    if (link) {
-      var handler = function () {
-        d.push({ event: 'portfolio_click', nav_label: 'portfolio' });
-      };
+    var links = document.querySelectorAll('.portfolio-link');
+    var handler = function () {
+      d.push({ event: 'portfolio_click', nav_label: 'portfolio' });
+    };
+    links.forEach(function (link) {
       link.addEventListener('click', handler);
       link.addEventListener('keydown', function (e) {
         if (e.key === 'Enter') handler(e);
       });
-    }
+    });
   })();
 </script>
