@@ -15,6 +15,7 @@ interface Props {
   modifiedTime?: Date;
   tags?: string[];
   jsonLd?: Record<string, unknown>;
+  analytics?: { event: string; data: Record<string, unknown> };
 }
 
 const {
@@ -27,6 +28,7 @@ const {
   modifiedTime,
   tags = [],
   jsonLd,
+  analytics,
 } = Astro.props;
 
 const locale = Astro.currentLocale ?? 'es';
@@ -48,6 +50,18 @@ const ogImage = new URL(image, SITE.url);
     <link rel="canonical" href={canonical} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="sitemap" href="/sitemap-index.xml" />
+    <script is:inline>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+        var f = d.getElementsByTagName(s)[0];
+        var j = d.createElement(s);
+        var dl = l !== 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-MQ8M3STF');
+    </script>
     <script is:inline>
       (function () {
         var lightCSS = ':root{--bg:#f8fafc;--surface:#fff;--surface-muted:#f1f5f9;--text:#0f172a;--muted:#64748b;--accent-primary:#046bd2;--accent-secondary:#26b7cd;--accent-gradient:linear-gradient(135deg,var(--accent-primary),var(--accent-secondary));--border:#e2e8f0;--bg-primary:var(--bg);--text-primary:var(--text);--text-secondary:var(--text);--text-muted:var(--muted);--accent-color:var(--accent-primary);--gradient-glow:var(--accent-secondary);--logo:var(--accent-primary);--nav:var(--muted);--chrome-bg:rgba(255,255,255,0.85);--shadow-card:0 20px 40px -15px rgba(15,23,42,0.08);--shadow-hover:0 30px 60px -15px rgba(4,107,210,0.12)}';
@@ -96,10 +110,17 @@ const ogImage = new URL(image, SITE.url);
     {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd).replace(/</g, '\\u003c')} />}
   </head>
   <body>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MQ8M3STF" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <Header />
     <main class:list={['container', { 'container-wide': wide }]}>
       <slot />
     </main>
     <Footer />
+    {analytics && (
+      <script is:inline set:html={`
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push(${JSON.stringify({ event: analytics.event, ...analytics.data }).replace(/</g, '\\u003c')});
+      `} />
+    )}
   </body>
 </html>
