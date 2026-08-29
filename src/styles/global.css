@@ -169,10 +169,10 @@ a:focus-visible {
   min-height: 4.5rem;
 }
 .site-title {
-  font-family: var(--font-chrome);
-  font-weight: 700;
-  font-size: 1.35rem;
-  letter-spacing: 0;
+  font-family: var(--font-heading);
+  font-weight: 900;
+  font-size: 1.5rem;
+  letter-spacing: -0.02em;
   text-decoration: none;
   background: var(--accent-gradient);
   -webkit-background-clip: text;
@@ -450,23 +450,37 @@ a:focus-visible {
 }
 .tags span {
   display: inline-flex;
+  align-items: center;
   background: rgba(4, 107, 210, 0.08);
   color: var(--accent-primary);
-  padding: 0.3em 0.8em;
+  padding: 0.35em 0.85em;
   border: 1px solid transparent;
   border-radius: var(--radius-pill);
   font-size: 0.75rem;
   font-weight: 600;
+  letter-spacing: 0.02em;
   transition:
     transform 0.26s var(--ease),
-    box-shadow 0.26s var(--ease);
+    box-shadow 0.26s var(--ease),
+    background 0.26s var(--ease),
+    color 0.26s var(--ease);
 }
 
 /* Levantamiento sutil de etiquetas al hover/focus */
 .tags li:hover span,
 .tags li:focus-within span {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 18px rgba(4, 107, 210, 0.08);
+  transform: translateY(-2px);
+  background: rgba(4, 107, 210, 0.15);
+  box-shadow: 0 8px 18px rgba(4, 107, 210, 0.12);
+}
+
+[data-theme="dark"] .tags span {
+  background: rgba(59, 130, 246, 0.12);
+}
+
+[data-theme="dark"] .tags li:hover span,
+[data-theme="dark"] .tags li:focus-within span {
+  background: rgba(59, 130, 246, 0.22);
 }
 
 .post-header {
