@@ -36,10 +36,9 @@ const isBlog = path.startsWith('/blog') || path.startsWith(`/${locale}/blog`);
       d.push({ event: 'portfolio_click', nav_label: 'portfolio' });
     };
     links.forEach(function (link) {
+      if (link.dataset.gtmTracked) return;
+      link.dataset.gtmTracked = '1';
       link.addEventListener('click', handler);
-      link.addEventListener('keydown', function (e) {
-        if (e.key === 'Enter') handler(e);
-      });
     });
   })();
 </script>
