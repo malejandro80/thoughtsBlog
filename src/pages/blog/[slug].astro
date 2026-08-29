@@ -51,6 +51,10 @@ const jsonLd = {
   modifiedTime={post.data.updatedDate}
   tags={post.data.tags}
   jsonLd={jsonLd}
+  analytics={{
+    event: 'post_view',
+    data: { post_slug: slug, post_title: post.data.title },
+  }}
 >
   <article>
     <p class="section-cta-start">
