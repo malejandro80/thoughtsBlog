@@ -3,7 +3,7 @@ title: 'Coffee reflections: on management and governance'
 description: 'Without a doubt, all of us have the capacity to lead or practice administration or logistics in a group, but, can we really do it?'
 pubDate: 2026-08-25
 tags: ['Administration', 'society', 'social criticism']
-image: '/images/post_1'
+image: '/images/post_1.1.jpg'
 ---
 
 <!-- @format -->
