@@ -30,10 +30,10 @@ const isBlog = path.startsWith('/blog') || path.startsWith(`/${locale}/blog`);
 
 <script is:inline>
   (function () {
-    var d = window.dataLayer || (window.dataLayer = []);
     var links = document.querySelectorAll('.portfolio-link');
     var handler = function () {
-      d.push({ event: 'portfolio_click', nav_label: 'portfolio' });
+      window.gtag = window.gtag || function(){(window.dataLayer = window.dataLayer || []).push(arguments);};
+      gtag('event', 'portfolio_click', { nav_label: 'portfolio' });
     };
     links.forEach(function (link) {
       if (link.dataset.gtmTracked) return;
