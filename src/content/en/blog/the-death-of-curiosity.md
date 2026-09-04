@@ -26,11 +26,11 @@ Putting it in the context of another era, about 80 years ago, many were farmers,
 
 In other words, the poor work harder and earn less because they didn't study.
 
-For those on the other side of the street, these professionals that society called doctors, many times without having completed a doctorate, reached the same conclusion through different reasoning: "the pen weighs less than the shovel, son," that was their saying.
+For those on the other side of the street, these professionals that society called doctors, many times without having completed a doctorate, reached the same conclusion through different reasoning: "the pen weighs less than the shovel son" that was their saying.
 
 I don't mean to say that our parents' logic about how to choose the easiest and most financially secure lifestyle is wrong, not at all, only that times have changed, they changed faster than grandma's empanadas run out at a family gathering.
 
-And that young heir to that mindset, who found himself caught in the crossfire of that transition, clashes with the reality of the current system:
+And that young heir to that mindset, who found himself caught in the crossfire of that transition, today clashes with the reality of the current system:
 
 - He's an aerospace engineer, but there are no rockets to build.
 - Competitiveness in a market where semester after semester adds new competitors.
@@ -48,6 +48,8 @@ This in itself is a more enriching question, and the answer is that _we should n
 If I were to summarize this post in a single phrase, it would be precisely this: **"Never stop learning"**
 
 Whether it's at university, work, a YouTube tutorial, or life advice from a family member.
+
+Where did the impulse that urged us to be explorers of knowledge go?
 
 ## The death of curiosity
 

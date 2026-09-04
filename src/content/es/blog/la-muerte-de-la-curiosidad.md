@@ -26,11 +26,11 @@ Poniendo el contexto de otra época, unos 80 años atrás, muchos eran campesino
 
 En otras palabras, el pobre trabaja más y cobra menos porque no estudió.
 
-Para aquellos que estaban del otro lado de la calle, estos profesionales que la sociedad llamó doctores, muchas veces sin haber cursado un doctorado, llegaron a la misma conclusión bajo otro razonamiento: "la pluma pesa menos que la pala, mijo", ese fue su decir.
+Para aquellos que estaban del otro lado de la calle, estos profesionales que la sociedad llamó doctores, muchas veces sin haber cursado un doctorado, llegaron a la misma conclusión bajo otro razonamiento: "la pluma pesa menos que la pala mijo", ese fue su decir.
 
 No quiero decir con esto que la lógica de nuestros padres sobre cómo escoger el estilo de vida más fácil y seguro económicamente sea errónea, en lo absoluto, solo que los tiempos han cambiado, cambiaron más rápido de lo que se acaban las empanadas de la abuela en una reunión familiar.
 
-Y aquel muchacho heredero de ese pensamiento, que se vio inmerso en la franja de esa transición y choca con la realidad del sistema reinante:
+Y aquel muchacho heredero de ese pensamiento, que se vio inmerso en la franja de esa transición, hoy choca con la realidad del sistema reinante:
 
 - Es ingeniero aeroespacial, pero no hay cohetes que construir.
 - La competitividad en un mercado donde semestre tras semestre suma nuevos competidores.
@@ -43,11 +43,13 @@ La respuesta: _no necesariamente deberíamos._
 
 La anterior pregunta está mal formulada deliberadamente, una pregunta acertada debería ser: ¿por qué deberíamos aprender?
 
-Esta en sí misma es una pregunta más enriquecedora, y la respuesta es que, _nunca deberíamos dejar de aprender y sentir curiosidad por descubrir algo nuevo_.
+Esta, en sí misma es una pregunta más enriquecedora, y la respuesta es que, _nunca deberíamos dejar de aprender y sentir curiosidad por descubrir algo nuevo_.
 
-Si debería resumir este post en una única frase sería precisamente esta: **"Nunca pares de aprender"**
+Si debería resumir este post en una única frase sería precisamente: **"Nunca pares de aprender"**
 
 Fuera de que sea en la universidad, el trabajo, un tutorial en YouTube o un consejo de vida que un familiar nos dio.
+
+¿Dónde quedó el impulso que nos incitaba a ser exploradores del conocimiento?
 
 ## La muerte de la curiosidad
 
@@ -59,7 +61,7 @@ No sé qué ocurre internamente en la pubertad, pero en algún punto entre la in
 
 Si me viera en este momento hablando con un psicólogo, su respuesta resuena en mi mente como: "la mente es un fino mecanismo que optimiza el uso de la energía, el pensamiento racional y curioso es el equivalente a tener un ruidoso motor V12 de un Camaro que consume 20 litros de gasolina en 10 kilómetros, cuando para andar, solo necesitas una patineta eléctrica; eficiencia energética en su máxima expresión".
 
-El fenómeno de la muerte de la curiosidad no ocurre solo, tampoco, sino que se ve catalizado por el robo de la atención. ¿Cómo enfocarse por horas en una actividad que lo amerite cuando nuestra ventana de atención está programada por un algoritmo a no más de 1 minuto? Esto no es algo nuevo, antes de las redes sociales había otras herramientas que capturaban nuestra atención, solo que ahora es digital. Una amiga una vez me dijo: "no deberías ver las redes sociales apenas despertar". ¿Por qué? Pregunté yo. "Es malo", dijo. Ya ahora entiendo por qué.
+El fenómeno de la muerte de la curiosidad no ocurre solo, tampoco, sino que se ve catalizado por el robo de la atención. ¿Cómo enfocarse por horas en una actividad que lo amerite cuando nuestra ventana de atención está programada por un algoritmo a no más de 1 minuto? Esto no es algo nuevo, antes de las redes sociales había otras herramientas que capturaban nuestra atención, solo que ahora es digital. Una amiga una vez me dijo: "no deberías ver las redes sociales apenas despertar". ¿Por qué? -Pregunté yo- "Es malo" -dijo- Ya ahora entiendo por qué.
 
 ## Adrenalina para revivirla.
 
