@@ -11,7 +11,7 @@ const t = useTranslations(locale);
 const posts = await getFeaturedPosts(3, locale);
 ---
 
-<BaseLayout title={`${SITE.author} · ${SITE.title}`} description={SITE.locales[locale as 'es' | 'en']?.description ?? SITE.description}>
+<BaseLayout title={SITE.locales[locale as 'es' | 'en']?.title ?? `${SITE.title} · ${SITE.author}`} description={SITE.locales[locale as 'es' | 'en']?.description ?? SITE.description}>
   <ProfileHero />
 
   <section aria-label={t.home.featured}>

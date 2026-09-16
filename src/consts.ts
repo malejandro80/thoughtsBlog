@@ -3,18 +3,23 @@
 export const SITE = {
   url: 'https://thoughts.miguelintech.com',
   title: 'Thoughts',
-  description:
-    'Bienvenido a un pequeño rincón de mi mente donde comparto todo aquello que me da curiosidad y lo que pienso al respecto..',
+  siteName: 'Thoughts · miguelintech',
   author: 'Miguel Bastidas',
+  twitterHandle: '@miguelintech',
   portfolio: 'https://miguelintech.com/',
+  description:
+    'Reflexiones sobre ingeniería de software, arquitectura de sistemas, liderazgo técnico y curiosidad intelectual por Miguel Bastidas (@miguelintech).',
   locales: {
     es: {
+      title: 'Thoughts · Miguel Bastidas | Reflexiones sobre Software y Liderazgo',
       description:
-        'Bienvenido a un pequeño rincón de mi mente donde comparto todo aquello que me da curiosidad y lo que pienso al respecto..'
+        'Reflexiones sobre ingeniería de software, arquitectura de sistemas, liderazgo técnico y curiosidad intelectual por Miguel Bastidas (@miguelintech).'
     },
     en: {
+      title: 'Thoughts · Miguel Bastidas | Essays on Software & Tech Leadership',
       description:
-        'Welcome to a small corner of my mind where I share everything that piques my curiosity and my thoughts on it.'
+        'Essays and reflections on software engineering, distributed systems, tech leadership, and intellectual curiosity by Miguel Bastidas (@miguelintech).'
     }
   }
-} as const
+} as const;
+
