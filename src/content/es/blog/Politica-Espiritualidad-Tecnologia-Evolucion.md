@@ -6,6 +6,7 @@ tags:
   [
     'Ciencias Políticas',
     'Espiritualidad',
+    'Consciencia',
     'Tecnología',
     'Inteligencia Artificial'
   ]
@@ -41,7 +42,7 @@ Y ni qué decir de las corrientes que suscitan tanto pasiones como fanatismo irr
 
 Como crítica se menciona que, dentro de la corriente comunista, la sociedad vive en un constante proceso dialéctico material, o, dicho en cristiano: los que tienen pelean con los que menos tienen por el poder y el control de las reglas de la sociedad, y es inevitable el ascenso de los segundos sobre los primeros.
 
-Las monarquías sucedieron a los imperios, los burgueses a los monarcas y el pueblo a estos últimos (al menos así lo menciona la ideología comunista), pero quedó abierta la pregunta: y después de que el último eslabón de la cadena toma el poder, ¿qué?
+Los burgueses desplazaron a los monarcas y el pueblo a los burgueses (al menos así lo menciona la ideología comunista), pero quedó abierta la pregunta: y después de que el último eslabón de la cadena toma el poder, ¿qué?
 
 Marx no tenía la respuesta a esta pregunta porque para su época era algo que no había sucedido.
 
@@ -57,7 +58,7 @@ El libro, aunque un poco desactualizado en acontecimientos políticos actuales (
 
 Ayer hablaba con mi primo de que uno debe permitirse vivir las experiencias más diversas, en las más distintas áreas, sin prejuicios, y de que de este proceso vivencial surgiría la síntesis de nuevas y mejores perspectivas.
 
-Hegel, el filósofo, ya habló de este tema como un proceso dialéctico de las ideas. Sip, vuelve a aparecer nuevamente este término rimbombante, solo que el sentido es ligeramente distinto.
+Hegel, el filósofo, ya habló de este tema como un proceso dialéctico de las ideas. Así es, vuelve a aparecer nuevamente este término que suena tan _fancy_, solo que el sentido es ligeramente distinto.
 
 Apelando nuevamente al cristiano: tienes una idea, la contrastas con algo totalmente opuesto, y de los puntos en común nace la síntesis, una nueva idea que toma lo mejor de ambos mundos.
 
@@ -85,19 +86,19 @@ Para los orientales, las respuestas vienen de adentro, de un proceso meditativo 
 
 A modo de experimento, estaría bueno que te tomaras un rato para experimentar de manera práctica y sin prejuicios las dos corrientes si no lo has hecho anteriormente.
 
-quizás encuentres algo nuevo que te haga ver el mundo de una manera distinta.
+Quizás encuentres algo nuevo que te haga ver el mundo de una manera distinta.
 
 A modo de anécdota: ¿cómo sabes que no te gusta el pescado si no te has permitido probarlo sin prejuicios?... Yo no comía pescado.
 
 ## Tecnología
 
-Ahh, la tecnología. de la mano con las ciencias puras y duras en el trabajo del ingeniero.
+Ahh, la tecnología: de la mano con las ciencias puras y duras en el trabajo del ingeniero.
 
-ese mundo abstracto y poco entendible para mucha gente, porque parece que estuviera escrito en un dialecto extraño, similar al chino mandarín para nosotros los occidentales.
+Ese mundo abstracto y poco entendible para mucha gente, porque parece que estuviera escrito en un dialecto extraño, similar al chino mandarín para nosotros los occidentales.
 
 ¿Cómo se relaciona en todo este menjurje? Si estuviéramos trabajando en el campo, la política sería la forma en que nos repartimos las labores: tú, mi rey, vas a arar esta parte, yo voy a arar este otro lado, y ustedes se encargan de sembrar.
 
-La espiritualidad, como ya mencionaba, para mí y de manera simplificada, es el acto de observar concientemente y tomar decisiones en base a lo que veo.
+La espiritualidad, como ya mencionaba, para mí y de manera simplificada, es el acto de observar conscientemente y tomar decisiones con base en lo que veo.
 
 Yo diría: "señores, no vamos a arar la tierra hoy porque parece que viene un palo de agua". Lo vi, lo analicé y tomé una decisión coherente al respecto.
 
@@ -105,11 +106,11 @@ La tecnología son las herramientas con las que trabajamos para hacer el trabajo
 
 Podría arar con bueyes, claro que sí, pero ¿por qué no hacerlo mejor con un tractor? Eso es tecnología.
 
-Y para mí, en este momento juega un papel clave porque estamos en pleno momento de transformación tecnológica similar, por no decir exactamente igual, al que se vivió con el nacimiento de la máquina de vapor y dinamizo la Revolución Industrial, solo que hoy lo llamamos "Cha' yi-pi-ti".
+Y para mí, en este momento juega un papel clave porque estamos en pleno momento de transformación tecnológica similar, por no decir exactamente igual, al que se vivió con el nacimiento de la máquina de vapor y dinamizó la Revolución Industrial, solo que hoy lo llamamos "Cha' yi-pi-ti".
 
 Nunca antes el conocimiento fue tan fácil y accesible para toda la humanidad. Si estás leyendo esto, seguramente tienes un computador o un teléfono, y, como el agricultor que se vale del tractor para hacer más rápido y eficiente su trabajo, es nuestra labor entender y sacarle el mayor provecho posible a la tecnología.
 
-Debo hacer un llamado de atención importante sobre el uso de la inteligencia artificial: no debe ser vista como un reemplazo del proceso cognitivo, sino como un complemento que me ayude a pensar y a obtener información de forma más facil, rapida y digerible.
+Debo hacer un llamado de atención importante sobre el uso de la inteligencia artificial: no debe ser vista como un reemplazo del proceso cognitivo, sino como un complemento que me ayude a pensar y a obtener información de forma más fácil, rápida y digerible.
 
 El tractor aún necesita un conductor que lo guíe; no pretendas que el campo se va a arar perfectamente solo por obra y gracia del Espíritu Santo.
 
@@ -135,19 +136,19 @@ La evolución es el contrapunto de la política: no hay nada más rígido en la 
 
 Con decirte que los conocimientos de referencia primarios fueron escritos por los griegos y reforzados por los romanos en el derecho, y hoy en día, en esencia, la forma de legislar y hacer leyes se sigue haciendo casi de la misma manera.
 
-Lo que sí evoluciona constantemente es la sociedad, y las leyes, especialmente para que sea mas igualitaria.
+Lo que sí evoluciona constantemente es la sociedad misma, y las leyes, especialmente para que sea más igualitaria.
 
-Hace 200 años, la escuela del liberalismo, con las ideas de Adam Smith, prevalecía como ideología económica principal en el seno del Imperio británico, y mencionar la obra de Marx era considerado un sacrilegio.
+Hace 200 años, la escuela del liberalismo, con las ideas de Adam Smith, prevalecía como ideología económica principal en el seno del Imperio británico, y mencionar la obra de Marx era considerado sacrilegio.
 
-Curioso que Marx desarrolló buena parte de sus pensamientos viviendo en Gran Bretaña como un burgués, pero quizás el contexto de esa Inglaterra del siglo XIX en la que vivió Marx fue el ecosistema perfecto donde se pudieron gestar buenas preguntas: ¿por qué el rico es rico y el pobre apenas puede subsistir?
+Curioso que Marx desarrolló buena parte de sus pensamientos viviendo en Gran Bretaña como un burgués, pero quizás el contexto de esa Inglaterra del siglo XIX en la que vivió fue el ecosistema perfecto donde se pudieron gestar buenas preguntas: ¿por qué el rico es rico y el pobre apenas puede subsistir?
 
 En esta Inglaterra naciente de la Revolución Industrial pasaban cosas muy densas: niños trabajando desde los 4 años, y hasta menos; mujeres y hombres trabajando por igual en condiciones que llamarlas precarias sería casi un adorno de palabra, en jornadas de 16 horas o más, a cambio de quizás 3 monedas para comprar medio pan duro.
 
 La vida era realmente dura, y esas condiciones dieron paso al pensamiento comunista.
 
-Al día de hoy, las ideas como las concibió Marx están obsoletas; no tienen cabida en una sociedad donde la seguridad social, las jornadas de 44 a 40 horas a la semana (y en estudio para que sean cada vez menos), el salario mínimo por ley, las vacaciones pagas y los sindicatos son el estándar en todos los países democráticos.
+Al día de hoy, las ideas como las concibió Marx están obsoletas; no tienen cabida en una sociedad donde la seguridad social, las jornadas de 44 a 40 horas a la semana (y en estudio para que sean cada vez menos), el salario mínimo por ley, las vacaciones pagas y los sindicatos son el estándar en todos los países democráticos, pero la crítica cumplió su promesa de cambio en la sociedad.
 
-Y los países que mejor calidad de vida tienen son aquellos que llevaron este proceso evolutivo al integrar políticas sociales en el pensamiento democrático, como por ejemplo los países nórdicos, algunos europeos y hasta el mismísimo Reino Unido, que alguna vez fue la representación del ideal capitalista y hoy tiene una postura socialdemócrata.
+Los países que mejor calidad de vida tienen son aquellos que llevaron este proceso evolutivo al integrar políticas sociales en el pensamiento democrático, como por ejemplo los países nórdicos, algunos europeos y hasta el mismísimo Reino Unido, que alguna vez fue la representación del ideal capitalista y hoy tiene una postura socialdemócrata.
 
 Se habla (a veces despectivamente) de una sociedad aburguesada respecto a estos países que ostentan una calidad de vida mejorada, históricamente hablando, pero ¿acaso ese no es el fin último de la política en la sociedad: hacer que todos los ciudadanos de la polis, como se les llamaba en la antigua Grecia, vivan de la mejor manera posible y en armonía?
 
@@ -177,7 +178,13 @@ El trabajo en sitio debe ser opcional para aquellos oficios que puedan hacerse d
 
 En la época de bonanza petrolera, Arturo Uslar Pietri dijo su frase célebre: "hay que sembrar el petróleo". Yo diría hoy en día: "hay que conectar el petróleo".
 
-Mientras más lejanos los campos de aplicación de la tecnología, más disruptivos los cambios.
+En materia educativa, me parece que una reforma en el funcionamiento de algunas carreras universitarias es necesaria hoy día, donde vale más demostrar lo que sabes que el certificado que te dan al culminar la carrera.
+
+Al día de hoy, me parece que la estructura de las universidades está diseñada para premiar a quien puede memorizar más que a aquel que puede pensar, y el objetivo del estudiante se vuelve más perseguir un cartón que entender. Por lo que la política del debate en las aulas sería para mí una opción más acertada, sin exámenes, ni evaluaciones, ni títulos, ni recompensas: solo deseo de aprender.
+
+Claro, en pro de no cometer los mismos errores de Mao, como ya lo dije al principio, esta no debe ser una regla absoluta. Carreras como la medicina, la odontología y algunas ramas de la ingeniería, como la civil, escapan de esta reforma. No pondría su vida en las manos de un médico sin título, ¿o sí?
+
+En temas de licenciatura, daría mayor protagonismo a los gremios. ¿Quiere ejercer la educación? Inscríbase en el gremio de educadores y fórjese al calor del trabajo de campo el merecimiento de ser llamado licenciado en educación.
 
 Algunas veces he fantaseado con la idea de que un agente de inteligencia artificial podría estar presente en los juzgados para tomar nota y hacer resúmenes de lo que se dijo. Yo lo uso a diario en mis reuniones de trabajo, ¿por qué no facilitarle el trabajo a los jueces y a los abogados también?
 

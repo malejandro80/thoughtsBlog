@@ -2,7 +2,7 @@
 title: 'Politics + Spirituality + Technology = Evolution'
 description: 'Right now we are living through a new Renaissance, where exploring the horizon of knowledge is not optional. Change comes when you allow yourself to think outside the box; so let us think, and let us make others think, outside the box.'
 pubDate: 2026-10-27
-tags: ['Political Science', 'Spirituality', 'Technology', 'Artificial Intelligence']
+tags: ['Political Science', 'Spirituality', 'Consciousness', 'Technology', 'Artificial Intelligence']
 image: '/images/post_3.jpeg'
 draft: false
 ---
@@ -35,7 +35,7 @@ And needless to say, there are the currents that stir up both passion and irrati
 
 As a critique, it is mentioned that, within the communist current, society lives in a constant process of material dialectics, or, put plainly: those who have fight with those who have less over power and control of society's rules, and the rise of the latter over the former is inevitable.
 
-Monarchies succeeded empires, the bourgeoisie succeeded monarchs, and the people succeeded the bourgeoisie (at least according to communist ideology), but one question was left open: once the last link in the chain takes power, then what?
+The bourgeoisie displaced the monarchs, and the people displaced the bourgeoisie (at least according to communist ideology), but one question was left open: once the last link in the chain takes power, then what?
 
 Marx didn't have the answer to this question because, in his time, it hadn't happened yet.
 
@@ -51,7 +51,7 @@ The book, although a bit outdated regarding current political events (just imagi
 
 Yesterday I was talking with my cousin about how one should allow oneself to live the most diverse experiences, in the most different areas, without prejudice, and how from this process of lived experience the synthesis of new and better perspectives would emerge.
 
-Hegel, the philosopher, already spoke about this as a dialectical process of ideas. Yep, that fancy term shows up again, only the meaning is slightly different.
+Hegel, the philosopher, already spoke about this as a dialectical process of ideas. That's right, that fancy-sounding term shows up again, only the meaning is slightly different.
 
 Appealing once again to plain language: you have an idea, you contrast it with something totally opposite, and from the points in common a synthesis is born, a new idea that takes the best of both worlds.
 
@@ -85,7 +85,7 @@ As an anecdote: how do you know you don't like fish if you haven't allowed yours
 
 ## Technology
 
-Ahh, technology. Hand in hand with the hard sciences in the engineer's work.
+Ahh, technology: hand in hand with the hard sciences in the engineer's work.
 
 That abstract world that many people find hard to understand, because it seems to be written in a strange dialect, like Mandarin Chinese is for us Westerners.
 
@@ -139,7 +139,7 @@ In this England, at the dawn of the Industrial Revolution, some very heavy thing
 
 Life was truly hard, and those conditions gave rise to communist thought.
 
-Today, the ideas as Marx conceived them are obsolete; they have no place in a society where social security, 40 to 44 hour work weeks (and under study to become shorter still), legal minimum wage, paid vacations, and unions are the standard in all democratic countries.
+Today, the ideas as Marx conceived them are obsolete; they have no place in a society where social security, 40 to 44 hour work weeks (and under study to become shorter still), legal minimum wage, paid vacations, and unions are the standard in all democratic countries, but the critique kept its promise of change in society.
 
 And the countries with the best quality of life are those that carried this evolutionary process forward by integrating social policies into democratic thinking, such as the Nordic countries, some European ones, and even the United Kingdom itself, which was once the embodiment of the capitalist ideal and today holds a social-democratic stance.
 
@@ -170,6 +170,14 @@ Infrastructure investment should go primarily toward developing basic services s
 On-site work should be optional for jobs that can be done remotely, such as office work, for example.
 
 During the oil boom, Arturo Uslar Pietri said his famous phrase: "we must sow the oil." Today I would say: "we must connect the oil."
+
+In terms of education, I think a reform in how some university degrees work is necessary today, where showing what you know is worth more than the certificate you receive when you finish the program.
+
+Nowadays, I think the structure of universities is designed to reward whoever can memorize more over whoever can think, and the student's goal becomes chasing a piece of paper rather than the act of understanding. That's why the policy of classroom debate would be, for me, a better option: no exams, no evaluations, no degrees, no rewards, just the desire to learn.
+
+Of course, so as not to repeat Mao's mistakes, as I said at the beginning, this shouldn't be an absolute rule. Careers like medicine, dentistry, and some branches of engineering, such as civil, are exempt from this reform. You wouldn't put your life in the hands of a doctor without a degree, would you?
+
+When it comes to professional licensing, I would give guilds a bigger role. Want to practice education? Sign up with the educators' guild and earn, through hands-on fieldwork, the right to be called a licensed educator.
 
 The further the fields of application of technology, the more disruptive the changes.
 
